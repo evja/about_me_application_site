@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 .blue {
   margin: -20px 0px -30px 0px;
   background-color: #99CCFF;
@@ -80,6 +81,19 @@ h2 {
    animation: slider 8s infinite ease-in-out;
 }
 
+#enter-button .btn {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+
+#enter-button .btn:hover {
+  background-color: black;
+}
+
 @keyframes roller {
   0% {
     transform:rotate(0deg);
@@ -121,7 +135,7 @@ h2 {
 }
 
 #header-bar {
-    margin-top: 200px;
+    margin-top: 300px;
     -webkit-animation-name: spin;
     -webkit-animation-duration: 8000ms;
     -webkit-animation-iteration-count: infinite;
