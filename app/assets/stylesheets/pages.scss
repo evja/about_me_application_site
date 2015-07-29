@@ -136,7 +136,10 @@ h2 {
 }
 
 #enter-button {
-   animation: slider 8s infinite ease-in-out;
+  top: -35px;
+  text-align: center;
+  position: relative;
+  animation: slider 8s infinite ease-in-out;
 }
 
 #enter-button .btn {
@@ -168,9 +171,9 @@ h2 {
   text-align: center;
   vertical-align: middle;
   color: white;
-  margin-left: 235px;
-  margin-top: -12px;
-  position: absolute;
+  position: relative;
+  left: 210px;
+  top: 25px;
   height: 20px;
   width: 20px;
   border-radius: 50%;
@@ -181,9 +184,9 @@ h2 {
   text-align: center;
   vertical-align: middle;
   color: white;
-  margin-top: -12px;
-  margin-left: 195px;
-  position: absolute;
+  position: relative;
+  left: 250px;
+  top: 5px;
   height: 20px;
   width: 20px;
   border-radius: 50%;
@@ -211,7 +214,7 @@ h2 {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 
-    h3 {
+    h1{
     text-decoration: underline;
   }
 }
