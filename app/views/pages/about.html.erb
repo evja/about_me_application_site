@@ -1,33 +1,55 @@
 <div class="blue">
-  <h1 class="text-center">Hello</h1>
+  <h1 class="text-center">Hello...</h1>
   <h2> A little about me and why I will be a great software engineer</h2>
+  <hr>
     <ul>
       <li id="lego">I grew up playing Legos</li>
-      <img src="legos.JPG" alt="sorry no image">
-      <p>
-        from such a young age, the building and creating gadgets and contraptions with Legos was always my passion.
-        Many saturdays, from morning till night, with back aching and wrists hurtng from
-        sorting through the mountains of legos, I would construct my dreams. it cultivated in me creativity, imagination and joy for creating.
-        I am a creator, a very small one, but still a creator.
-      </p>
+      <div class="row lego-info">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <img src="legos.JPG" alt="sorry no image">
+        </div>
 
-      <li id="mech">Tearing apart and reassembling mechanical and electrical gadgets-</li>
-      <img  src="mechanics.JPG" alt="sorry no image">
-        <p>
-          So i'm a curious person, always wondering, always asking questions and seeking answers saying "what if.."
-          then giving it at try. it's been said that "an expert is someone who has made all the mistakes one can make in a narrow feild"
-          i suppose to become an expert you must be curious where the boundaries are and then push to them.
-          when you're curious you try, you fall and try again.
-        </p>
+        <div class="col-md-5">
+          <p>
+            from such a young age, the building and creating gadgets and contraptions with Legos was always my passion.
+            Many saturdays, from morning till night, with back aching and wrists hurtng from
+            sorting through the mountains of legos, I would construct my dreams. it cultivated in me creativity, imagination and joy for creating.
+            I am a creator, a very small one, but still a creator.
+          </p>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+      <hr>
+
+      <li id="mech">Tearing apart and reassembling mechanical and electrical gadgets</li>
+      <div class="row mech-info">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <p>
+            So i'm a curious person, always wondering, always asking questions and seeking answers saying "what if.."
+            then giving it at try. it's been said that "an expert is someone who has made all the mistakes one can make in a narrow feild"
+            i suppose to become an expert you must be curious where the boundaries are and then push to them.
+            when you're curious you try, you fall and try again.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img  src="mechanics.JPG" alt="sorry no image">
+        </div>
+        <div class="col-md-1"></div>
+      </div>
     </ul>
 
-    <p>
+    <hr>
+
+    <p id="a-little-more-about-me">
       I learn very fast and respect those around me, I love that there are so many people that know much
       more than me, because that means that I have so much to lean and grow, and i never want to stop learning.
       That is one of the most intriguing things about programming and software, the creations seem limitless.
     </p>
+    <br>
 
-    <p>
+    <p id="closing-statment">
       As an aspiring software engineer I know i will excell at whatever environment i put myself into.
       I am dedicated, hard working and focused. I grew up on a farm and have worked for everything i have.
       some things are harder than others but learning by immersion is where the magic happens. sure it's scary and
@@ -38,9 +60,14 @@
       as Mark Twain once said,
       "I am an old man and have known a great many troubles, but most of them never happened."
     </p>
-  <div class="green">
-    <div><%= link_to 'Front Page', root_path %></div>
+
+  <div class="row footer">
+    <div class="col-md-3"></div>
+    <div class="col-md-2 green">
+      <div><%= link_to 'Front Page', root_path %></div>
+    </div>
+    <div class="col-md-2 orange"></div>
+    <div class="col-md-2 grey"></div>
+    <div class="col-md-3"></div>
   </div>
-  <div class="orange"></div>
-  <div class="grey"></div>
 </div>

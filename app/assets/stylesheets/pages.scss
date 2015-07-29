@@ -12,6 +12,7 @@
 }
 
 .green {
+  text-align: center;
   height: 150px;
   width: 200px;
   background-color: #CCFFCC;
@@ -19,10 +20,15 @@
   position: relative;
   display: inline-block;
   border-radius: 30px 30px 0px 0px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
 }
 
 .green:hover {
-  width: 300px;
+  width: 250px;
 }
 
 .orange {
@@ -32,7 +38,17 @@
   z-index: 1;
   display: inline-block;
   border-radius: 30px 30px 0px 0px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
 }
+
+.orange:hover {
+  width: 250px;
+}
+
 .grey {
   background-color: #97AFAF;
   height: 150px;
@@ -40,19 +56,61 @@
   z-index: 1;
   display: inline-block;
   border-radius: 30px 30px 0px 0px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
 }
 
+.grey:hover {
+  width: 250px;
+}
+
+.col-md-center {
+  text-align: center;
+}
 div p {
   padding: 0px 20px;
 }
 
+.lego-info p {
+  font-size: 24px;
+}
+
+.mech-info {
+  font-size: 24px;
+}
+
+#lego {
+  font-style: italic;
+  text-align: center;
+  margin: 20px;
+}
+
+#mech {
+  font-style: italic;
+  text-align: center;
+  margin: 20px;
+}
+
+#a-little-more-about-me {
+  font-size: 25px;
+}
+
+#closing-statment {
+  font-size: 26px;
+}
+
+
 img {
-  width: 540px;
+  width: 500px;
   height: 370px;
   border-radius: 3em;
 }
 
 li {
+  list-style: none;
   margin-top: 30px;
   font-size: 23px;
 }
@@ -86,7 +144,6 @@ h2 {
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
-  /* ...and now for the proper property */
   transition:.5s;
 }
 
